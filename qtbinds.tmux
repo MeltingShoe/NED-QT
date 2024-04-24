@@ -2,4 +2,4 @@
 
 tmux display-popup "echo bussin"
 unbind -n C-q
-bind-key -n C-q run-shell "python $(pwd)/main.py"
+bind-key -n C-q run-shell "python3 $(pwd)/main.py"
